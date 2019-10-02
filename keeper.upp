@@ -1,0 +1,27 @@
+description "real-time deep dir bup\377";
+
+uses
+	compression,
+	utilfuncs,
+	dbsqlite3,
+	HoM,
+	qdconfig;
+
+library
+	pthread;
+
+file
+	main.cpp,
+	keeper.h,
+	keeper.cpp,
+	monitor.h,
+	monitor.cpp,
+	monitors.cpp,
+	kprglob.h,
+	kprglob.cpp,
+	dbkeeper.h,
+	dbkeeper.cpp;
+
+mainconfig
+	"" = "";
+
